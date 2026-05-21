@@ -1,0 +1,16 @@
+{
+  "name": "fraudguard-senior",
+  "version": "0.1.0",
+  "description": "Medicare fraud risk scoring and claim optimization core for seniors and veterans.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest --run",
+    "ci": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^4.1.7"
+  }
+}

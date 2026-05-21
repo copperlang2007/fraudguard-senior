@@ -24,3 +24,22 @@ Freemium → Premium $9.99/mo. B2B white-label for insurers.
 Proprietary fraud ML + user network effects + HIPAA-ready architecture.
 
 Built by copperlang2007 | Market placement: AARP, VA partnerships, senior Facebook ads.
+
+## Working Starter
+
+This repository now includes a tested TypeScript fraud and claim optimization core:
+
+- Medicare claim fraud risk scoring
+- Duplicate claim and unsolicited outreach risk signals
+- Provider verification checks
+- 2026 Part D out-of-pocket cap modeling
+- Veteran-specific review action guidance
+
+## Verify
+
+```bash
+npm ci
+npm run ci
+```
+
+GitHub Actions runs the same build and Vitest suite on pull requests and pushes to `main`.
